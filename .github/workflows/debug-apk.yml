@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
       - name: Ekstrak zip proyek
         run: |
-          if [ -f XAGameSpacepanel.zip ]; then unzip -oq XAGameSpacepanel.zip; fi
+          if [ -f XAGameSpace-panel.zip ]; then unzip -oq XAGameSpace-panel.zip; fi
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
